@@ -10,8 +10,7 @@ int main()
 
     GameManager manager;
 
-    //確認
-
+  
 
 	while (MakeScreen::Get().isOpen())
 	{
