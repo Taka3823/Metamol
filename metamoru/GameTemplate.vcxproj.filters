@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b34314d8-4c9f-4a7d-ae48-f2f5e3d783b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{983490c7-8486-4c78-9811-71ef005a4f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TikuneLib">
+      <UniqueIdentifier>{9f7d9190-1ceb-4750-a24b-63668910fd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TikuneLib\Cpp">
+      <UniqueIdentifier>{e337aced-d7f0-4997-9335-51ff79540940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TikuneLib\ヘッダー">
+      <UniqueIdentifier>{8a07fe0b-5476-499f-a48a-9b2defa90203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metamol">
+      <UniqueIdentifier>{07e3b443-85c3-4316-b6c9-d848185307c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metamol\Resource">
+      <UniqueIdentifier>{b3b91822-d28d-4eec-b504-b6cbf3d59f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metamol\SaveData">
+      <UniqueIdentifier>{9b263690-73db-481c-802a-ae7b85d9be12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metamol\Training">
+      <UniqueIdentifier>{46cdf760-7aa7-4b68-9216-84a890ad2cae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lib\appEnv.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\audio.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\camera2D.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\defines.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\fileUtil.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\font.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\framework.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gamePad.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glExt.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glfwWindow.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glTexture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\graph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os_osx.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os_win.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\png.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\random.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\streaming.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\streamWav.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\texture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\utils.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\vector.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\wav.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\Common.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\GameMain.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\MakeScreen.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\Result.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\SceneBase.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\TikuneInclueder.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\Title.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\OneSecond.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Metamol\Resource.h">
+      <Filter>Metamol\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Metamol\SaveData.h">
+      <Filter>Metamol\SaveData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Metamol\Training.h">
+      <Filter>Metamol\Training</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Metamol\MetamolIncluder.h">
+      <Filter>Metamol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\GameManager.h">
+      <Filter>TikuneLib\ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Metamol\ResourceManager.h">
+      <Filter>Metamol\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lib\appEnv.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\audio.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\camera2D.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\fileUtil.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\font.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\gamePad.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glExt.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glfwWindow.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glTexture.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\graph.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\matrix.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\os_osx.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\os_win.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\png.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\random.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\streaming.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\streamWav.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\texture.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\utils.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\wav.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\Common.cpp">
+      <Filter>TikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\GameMain.cpp">
+      <Filter>TikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\Result.cpp">
+      <Filter>TikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\Title.cpp">
+      <Filter>TikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\tikuneLib\Cpp\OneSecnd.cpp">
+      <Filter>TikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Metamol\Resource.cpp">
+      <Filter>Metamol\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Metamol\SaveData.cpp">
+      <Filter>Metamol\SaveData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Metamol\Training.cpp">
+      <Filter>Metamol\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\GameManager.cpp">
+      <Filter>TikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Metamol\ResourceManager.cpp">
+      <Filter>Metamol\Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
